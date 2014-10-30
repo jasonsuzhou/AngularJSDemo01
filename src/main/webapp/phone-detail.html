@@ -1,0 +1,8 @@
+<h2>{{phone.name}}</h2>
+<div class="phone-thumbs">
+<img ng-src={{phone.imageUrl}} ng-click="sayHello('Jason')">
+<dl>
+	<dt>GPS</dt>
+	<dd>{{phone.gps | checkmark}}</dd>
+</dl>
+</div>
